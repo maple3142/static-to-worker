@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /api/
+Allow: /
+Sitemap: https://blog.maple3142.net/sitemap.xml

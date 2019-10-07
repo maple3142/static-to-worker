@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>廢文集中區</title><link href="/atom.xml" rel="self"/><link href="https://blog.maple3142.net/"/><updated>2019-09-12T07:56:27.708Z</updated><id>https://blog.maple3142.net/</id><author><name>maple3142</name></author><generator uri="http://hexo.io/">Hexo</generator><entry><title>EPUB/TXT 繁簡轉換</title><link href="https://blog.maple3142.net/2019/09/12/ebook-converter/"/><id>https://blog.maple3142.net/2019/09/12/ebook-converter/</id><published>2019-09-12T07:46:00.000Z</published><updated>2019-09-12T07:56:27.708Z</updated><summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;這是個簡單的網頁小工具，可幫助你線上轉換 Epub 或 Txt 檔案的文字內容為繁體或簡體&lt;/p&gt;
+&lt;p&gt;網址在此: &lt;a href=&quot;https://ebook-converter.maple3142.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ebook-converter.maple3142.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此工具的繁簡轉換能力是由強大的 &lt;a href=&quot;https://github.com/BYVoid/OpenCC&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;OpenCC&lt;/a&gt;
+        
+      
+    
+    </summary><category term="專案" scheme="https://blog.maple3142.net/categories/%E5%B0%88%E6%A1%88/"/><category term="tools" scheme="https://blog.maple3142.net/tags/tools/"/><category term="Chinese" scheme="https://blog.maple3142.net/tags/Chinese/"/><category term="epub" scheme="https://blog.maple3142.net/tags/epub/"/><category term="txt" scheme="https://blog.maple3142.net/tags/txt/"/></entry><entry><title>khinsider 批量下載器</title><link href="https://blog.maple3142.net/2019/08/21/khinsider-batch-downloader/"/><id>https://blog.maple3142.net/2019/08/21/khinsider-batch-downloader/</id><published>2019-08-21T09:22:05.000Z</published><updated>2019-08-21T09:22:18.746Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://downloads.khinsider.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;khinsider&lt;/a&gt; 是一個提供許多遊戲 OST 下載與試聽的網站，也提供許多免費單曲下載&lt;br&gt;不過下載整張專輯的功能是需要 donate 的，因此就弄了一個簡單的腳本來批量下載&lt;br&gt;下載連結: &lt;a href=&quot;https://greasyfork.org/zh-TW/scripts/37314-video-game-music-batch-downloader&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greasy Fork&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我之所以知道這個網站是為了下載整張&lt;a href=&quot;http://store.steampowered.com/app/351640/Eternal_Senia/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;永恆的賽妮亞&lt;/a&gt;的 OST&lt;/p&gt;
+&lt;p&gt;這遊戲也是不錯的遊戲，有興趣可以玩玩看&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="userscript" scheme="https://blog.maple3142.net/categories/userscript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="userscript" scheme="https://blog.maple3142.net/tags/userscript/"/></entry><entry><title>輕量的 Google Analytics</title><link href="https://blog.maple3142.net/2019/08/19/lightweight-google-analytics/"/><id>https://blog.maple3142.net/2019/08/19/lightweight-google-analytics/</id><published>2019-08-19T14:20:11.000Z</published><updated>2019-08-19T15:57:10.000Z</updated><summary type="html">
+    
+      &lt;p&gt;Google Analytics 是個很知名的網頁資料分析工具，加入到網頁的方法也很簡單，只需要貼上幾個 &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; 到 html 中就好了。不過對於一些有對自己網站使用一些檢測工具的人來說可能會發現這其實是個效能殺手，主要是它 Headers 中的快取時間很短，而腳本大小又蠻大的&lt;/p&gt;
+&lt;p&gt;對此，我之前就有想過到底要不要放 Google Analytics 在目前這個網頁上，一方面是想知道訪客主要都瀏覽哪些文章，但又不想讓這個網頁太過肥大、緩慢。後來經過我的一些研究後，發現原來 Google Analytics 有提供 api 讓使用者發送統計資料，不需要官方的 script 就能運作了&lt;/p&gt;
+    
+    </summary><category term="教學" scheme="https://blog.maple3142.net/categories/%E6%95%99%E5%AD%B8/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="Google Analytics" scheme="https://blog.maple3142.net/tags/Google-Analytics/"/></entry><entry><title>用過的 VPS 的一些經驗與評價</title><link href="https://blog.maple3142.net/2019/07/25/vps-experiences/"/><id>https://blog.maple3142.net/2019/07/25/vps-experiences/</id><published>2019-07-25T14:57:10.000Z</published><updated>2019-08-16T11:14:47.619Z</updated><summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本文會不斷的根據我的體驗來更新，評價也都是很主觀的&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="心得" scheme="https://blog.maple3142.net/categories/%E5%BF%83%E5%BE%97/"/><category term="free" scheme="https://blog.maple3142.net/tags/free/"/><category term="vps" scheme="https://blog.maple3142.net/tags/vps/"/><category term="linux" scheme="https://blog.maple3142.net/tags/linux/"/><category term="server" scheme="https://blog.maple3142.net/tags/server/"/></entry><entry><title>推薦的 Magisk Modules</title><link href="https://blog.maple3142.net/2019/04/05/recommended-magisk-modules/"/><id>https://blog.maple3142.net/2019/04/05/recommended-magisk-modules/</id><published>2019-04-05T07:46:48.000Z</published><updated>2019-08-16T11:14:47.599Z</updated><summary type="html">
+    
+      &lt;p&gt;本文會推薦一些我目前正在使用的 Magisk Modules&lt;/p&gt;
+&lt;p&gt;提供一下我的手機型號與版本:&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;型號: POCOPHONE F1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;系統: Android 9.0 (RR-P-v7.0.1-20190404-beryllium-Official)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CPU: Snapdragon 845 (ARMv8-A x64)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary><category term="android" scheme="https://blog.maple3142.net/categories/android/"/><category term="android" scheme="https://blog.maple3142.net/tags/android/"/><category term="magisk" scheme="https://blog.maple3142.net/tags/magisk/"/></entry><entry><title>Pixiv 簡單存圖</title><link href="https://blog.maple3142.net/2019/03/16/pixiv-easy-save-image/"/><id>https://blog.maple3142.net/2019/03/16/pixiv-easy-save-image/</id><published>2019-03-16T14:58:18.000Z</published><updated>2019-08-16T11:14:47.599Z</updated><summary type="html">
+    
+      &lt;p&gt;這是一個在瀏覽器使用的使用者腳本，可以讓你簡單的在 &lt;a href=&quot;https://www.pixiv.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Pixiv&lt;/a&gt; 上面存圖&lt;/p&gt;
+&lt;h1 id=&quot;載點與原始碼&quot;&gt;&lt;a href=&quot;#載點與原始碼&quot; class=&quot;headerlink&quot; title=&quot;載點與原始碼&quot;&gt;&lt;/a&gt;載點與原始碼&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;GreasyFork: &lt;a href=&quot;https://greasyfork.org/zh-TW/scripts/369930-pixiv-easy-save-image&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;369930-pixiv-easy-save-image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/maple3142/browser-extensions/blob/master/scripts/pixiv-easy-save-image.user.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;maple3142/browser-extensions pixiv-easy-save-image.user.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用教學請點進上方的 GreasyFork 中閱讀，本文主要以介紹原理為主&lt;/p&gt;
+&lt;h1 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;headerlink&quot; title=&quot;功能&quot;&gt;&lt;/a&gt;功能&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;存單圖&lt;/li&gt;
+&lt;li&gt;存多圖為 zip&lt;/li&gt;
+&lt;li&gt;存漫畫為 zip&lt;/li&gt;
+&lt;li&gt;存動圖為 gif&lt;/li&gt;
+&lt;li&gt;自訂檔案名稱格式&lt;/li&gt;
+&lt;li&gt;存圖只需按一個鍵&lt;/li&gt;
+&lt;li&gt;支援多頁面，包括作品頁、首頁、收藏、搜尋等等…&lt;/li&gt;
+&lt;li&gt;與 &lt;a href=&quot;https://github.com/FlandreDaisuki/Patchouli&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Patchouli&lt;/a&gt; 腳本相容&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary><category term="userscript" scheme="https://blog.maple3142.net/categories/userscript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="userscript" scheme="https://blog.maple3142.net/tags/userscript/"/><category term="pixiv" scheme="https://blog.maple3142.net/tags/pixiv/"/></entry><entry><title>如何下載 YouTube 影片 (原理)</title><link href="https://blog.maple3142.net/2018/05/05/how-to-download-youtube-video/"/><id>https://blog.maple3142.net/2018/05/05/how-to-download-youtube-video/</id><published>2018-05-05T14:38:37.000Z</published><updated>2019-08-16T11:14:47.587Z</updated><summary type="html">
+    
+      &lt;p&gt;只要 google &lt;strong&gt;YouTube 下載&lt;/strong&gt; 隨便就能找到很多網站讓你能下載影片&lt;br&gt;不過我不久前就很好奇要怎樣才能取得 yt 影片的真實網站，因此就花了點時間去研究原理&lt;/p&gt;
+&lt;p&gt;而我最後把它做成一個簡單的 api 伺服器，改一下應該也能當成 npm module 來發布&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/maple3142/ytdl&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;maple3142/ytdl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;而這篇文章會簡單的講是怎麼下載 yt 影片的&lt;/p&gt;
+    
+    </summary><category term="研究" scheme="https://blog.maple3142.net/categories/%E7%A0%94%E7%A9%B6/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="download" scheme="https://blog.maple3142.net/tags/download/"/><category term="youtube" scheme="https://blog.maple3142.net/tags/youtube/"/></entry><entry><title>架設百度貼吧雲簽到</title><link href="https://blog.maple3142.net/2018/04/05/deploy-tieba-cloud-sign/"/><id>https://blog.maple3142.net/2018/04/05/deploy-tieba-cloud-sign/</id><published>2018-04-05T13:14:49.000Z</published><updated>2019-08-16T11:14:47.578Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/MoeNetwork/Tieba-Cloud-Sign&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度貼吧雲簽到&lt;/a&gt; 是一個開源的 php 程式，可以架設出一個自動簽到百度貼吧的系統&lt;/p&gt;
+&lt;p&gt;Google 到很多&lt;code&gt;貼吧 自動簽到&lt;/code&gt;之類的網站很多都是用這個系統的&lt;/p&gt;
+&lt;p&gt;所以我就用 &lt;a href=&quot;https://www.gearhost.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GearHost&lt;/a&gt; 的免費伺服器和資料庫就架了一個私人使用的簽到伺服器&lt;/p&gt;
+    
+    </summary><category term="教學" scheme="https://blog.maple3142.net/categories/%E6%95%99%E5%AD%B8/"/><category term="php" scheme="https://blog.maple3142.net/tags/php/"/></entry><entry><title>把 Apps Script 作為簡單的資料庫來使用</title><link href="https://blog.maple3142.net/2018/04/01/apps-script-db/"/><id>https://blog.maple3142.net/2018/04/01/apps-script-db/</id><published>2018-04-01T09:00:12.000Z</published><updated>2019-08-16T11:14:47.536Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://script.google.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Apps Script&lt;/a&gt; 是 Google 所提供的免費服務之一&lt;br&gt;可以在上面執行 javascript 的子集與 Google 的去操作一些服務(ex: 雲端硬碟、試算表)&lt;br&gt;而他也支援使用 httphook ，可以在收到某些 request 時做出某些操作&lt;/p&gt;
+&lt;p&gt;而 &lt;a href=&quot;https://github.com/maple3142/apps-script-db&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;maple3142/apps-script-db&lt;/a&gt; 就是使用它的一些功能來實現 key=&amp;gt;value 的資料庫的小 library&lt;/p&gt;
+    
+    </summary><category term="專案" scheme="https://blog.maple3142.net/categories/%E5%B0%88%E6%A1%88/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="appsscript" scheme="https://blog.maple3142.net/tags/appsscript/"/><category term="free" scheme="https://blog.maple3142.net/tags/free/"/></entry><entry><title>koel 私人音樂串流伺服器</title><link href="https://blog.maple3142.net/2018/03/10/koel-music-streaming/"/><id>https://blog.maple3142.net/2018/03/10/koel-music-streaming/</id><published>2018-03-10T09:37:59.000Z</published><updated>2019-08-16T11:14:47.594Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://koel.phanan.net/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;koel&lt;/a&gt; 是一個用 Laravel+Vue.js 做的開源音樂串流伺服器架設好之後是蠻方便的，在手機 ipad 之類的裝置上只要打開瀏覽器就能直接播放電腦上的音樂&lt;/p&gt;
+&lt;p&gt;這篇文章是一篇簡單的在 Windows 上建立 koel 伺服器的教學&lt;/p&gt;
+&lt;p&gt;官方教學: &lt;a href=&quot;https://koel.phanan.net/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Koel docs&lt;/a&gt;&lt;br&gt;不過官方的教學稍微簡略了一些，對 Windows 使用者來說可能不是簡單的能依照上面搞定，因此才有這篇文章的出現&lt;/p&gt;
+    
+    </summary><category term="教學" scheme="https://blog.maple3142.net/categories/%E6%95%99%E5%AD%B8/"/><category term="php" scheme="https://blog.maple3142.net/tags/php/"/><category term="music" scheme="https://blog.maple3142.net/tags/music/"/></entry><entry><title>透過修改 apk 來移除巴哈姆特 app 廣告</title><link href="https://blog.maple3142.net/2018/02/05/remove-bahamut-app-ads-by-modify-apk/"/><id>https://blog.maple3142.net/2018/02/05/remove-bahamut-app-ads-by-modify-apk/</id><published>2018-02-05T08:04:41.000Z</published><updated>2019-08-16T11:14:47.606Z</updated><summary type="html">
+    
+      &lt;p&gt;之前已經有一篇&lt;a href=&quot;/2017/11/26/block-android-bahamut-ads/&quot; title=&quot;阻擋 Android 版巴哈姆特的廣告&quot;&gt;阻擋 Android 版巴哈姆特的廣告&lt;/a&gt;在講如何阻擋巴哈 app 廣告了&lt;br&gt;但自從 Android 7 開始，Android 對於使用者自己新增的憑證有限制會導致 https 過濾不完全，有 root 的裝置可以使用 &lt;a href=&quot;https://github.com/Nutomic/movecerts/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Move Certs!&lt;/a&gt; 這個 app 來把 AdGuard 的憑證轉為系統憑證，這樣 AdGuard 才能繼續正常過濾&lt;br&gt;因此對於沒 root 的裝置就需要其他辦法來去除廣告了，這就是這篇文章的目的&lt;/p&gt;
+&lt;p&gt;資訊來源: &lt;a href=&quot;https://github.com/AdguardTeam/AdguardForAndroid/issues/334&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ArguardForAndroid issue #334&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Move Certs! 的 GitHub releases 中只有 &lt;code&gt;1.0.1&lt;/code&gt; 的 apk，最新版 &lt;code&gt;1.0.2&lt;/code&gt; 可能要另外找，而它的 Package name 是 &lt;code&gt;com.nutomic.zertman&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;更新: 有使用 Magisk 的人可以去搜尋一個 Move Certificates 的 module 來安裝，功能和 Move Certs! 一樣&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="研究" scheme="https://blog.maple3142.net/categories/%E7%A0%94%E7%A9%B6/"/><category term="Bahamut" scheme="https://blog.maple3142.net/tags/Bahamut/"/><category term="ads" scheme="https://blog.maple3142.net/tags/ads/"/><category term="android" scheme="https://blog.maple3142.net/tags/android/"/><category term="apk" scheme="https://blog.maple3142.net/tags/apk/"/></entry><entry><title>Video Game Music 批量下載器</title><link href="https://blog.maple3142.net/2018/01/20/video-game-music-batch-downloader/"/><id>https://blog.maple3142.net/2018/01/20/video-game-music-batch-downloader/</id><published>2018-01-20T06:51:05.000Z</published><updated>2019-08-16T11:14:47.000Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://downloads.khinsider.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Video Game Music&lt;/a&gt; 是一個提供許多遊戲 OST 下載與試聽的網站，也提供許多免費單曲下載&lt;br&gt;不過下載整張專輯的功能是需要 donate 的，因此就弄了一個簡單的腳本來批量下載&lt;br&gt;下載連結: &lt;a href=&quot;https://greasyfork.org/zh-TW/scripts/37314-video-game-music-batch-downloader&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greasy Fork&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我之所以知道這個網站是為了下載整張&lt;a href=&quot;http://store.steampowered.com/app/351640/Eternal_Senia/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;永恆的賽妮亞&lt;/a&gt;的 OST&lt;/p&gt;
+&lt;p&gt;這遊戲也是不錯的遊戲，有興趣可以玩玩看&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="userscript" scheme="https://blog.maple3142.net/categories/userscript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="userscript" scheme="https://blog.maple3142.net/tags/userscript/"/></entry><entry><title>巴哈姆特 imgur 上傳器</title><link href="https://blog.maple3142.net/2017/12/30/baha-imgur-upload/"/><id>https://blog.maple3142.net/2017/12/30/baha-imgur-upload/</id><published>2017-12-30T08:09:33.000Z</published><updated>2019-08-16T11:14:47.543Z</updated><summary type="html">
+    
+      &lt;p&gt;這是一個簡單的巴哈姆特 userscript&lt;br&gt;可以在&lt;strong&gt;上傳圖片&lt;/strong&gt;的對話框中增加上傳到 imgur 的功能&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forum.gamer.com.tw/C.php?bsn=60076&amp;snA=4338034&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;發在場外的文章&lt;/a&gt;&lt;/p&gt;
+    
+    </summary><category term="userscript" scheme="https://blog.maple3142.net/categories/userscript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="userscript" scheme="https://blog.maple3142.net/tags/userscript/"/><category term="Bahamut" scheme="https://blog.maple3142.net/tags/Bahamut/"/></entry><entry><title>httpsrv - 簡單的本機 http 伺服器</title><link href="https://blog.maple3142.net/2017/12/16/httpsrv/"/><id>https://blog.maple3142.net/2017/12/16/httpsrv/</id><published>2017-12-16T07:38:31.000Z</published><updated>2019-08-16T11:14:47.591Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/httpsrv&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;httpsrv&lt;/a&gt; 是一個非常簡單的小型伺服器，功用很像&lt;code&gt;python2&lt;/code&gt;的&lt;code&gt;SimpleHTTPServer&lt;/code&gt;&lt;br&gt;可以透過輸入簡單的一行指令，將某個資料夾作為暫時的 http server，然後就能在瀏覽器上瀏覽&lt;/p&gt;
+    
+    </summary><category term="專案" scheme="https://blog.maple3142.net/categories/%E5%B0%88%E6%A1%88/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/></entry><entry><title>Anime1 下載器</title><link href="https://blog.maple3142.net/2017/12/07/anime1-downloader/"/><id>https://blog.maple3142.net/2017/12/07/anime1-downloader/</id><published>2017-12-07T12:24:46.000Z</published><updated>2019-08-16T11:14:47.527Z</updated><summary type="html">
+    
+      &lt;p&gt;這是一個簡單的 userscript 用來，可以取得 &lt;a href=&quot;https://anime1.me/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Anime1.me&lt;/a&gt; 上面動畫的真實連結&lt;br&gt;安裝連結: &lt;a href=&quot;https://greasyfork.org/zh-TW/scripts/35953-anime1-me-%E4%B8%8B%E8%BC%89%E5%99%A8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greasy Fork&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;需要先安裝支援 userscript 的擴充插件才能安裝，如 Tampermonkey ViolentMonkey etc…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/maple3142/anime1-downloader&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;maple3142/anime1-downloader&lt;/a&gt;&lt;/p&gt;
+    
+    </summary><category term="userscript" scheme="https://blog.maple3142.net/categories/userscript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/><category term="userscript" scheme="https://blog.maple3142.net/tags/userscript/"/><category term="download" scheme="https://blog.maple3142.net/tags/download/"/><category term="anime" scheme="https://blog.maple3142.net/tags/anime/"/></entry><entry><title>壓縮 hexo 部落格</title><link href="https://blog.maple3142.net/2017/12/02/compress-hexo-blog/"/><id>https://blog.maple3142.net/2017/12/02/compress-hexo-blog/</id><published>2017-12-02T14:38:01.000Z</published><updated>2019-08-16T11:14:47.577Z</updated><summary type="html">
+    
+      &lt;p&gt;hexo 所產生出來的網站都是&lt;strong&gt;靜態&lt;/strong&gt;的&lt;code&gt;html&lt;/code&gt;頁面，預設情形下到&lt;code&gt;public&lt;/code&gt;資料夾隨便打開檔案都會發現許多多餘的空白及換行&lt;br&gt;因此我們可以把這些東西消除，並且減少檔案體積、增加傳輸速度&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你現在看的這個網站就是有經過壓縮的&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="教學" scheme="https://blog.maple3142.net/categories/%E6%95%99%E5%AD%B8/"/><category term="hexo" scheme="https://blog.maple3142.net/tags/hexo/"/></entry><entry><title>阻擋 Android 版巴哈姆特的廣告</title><link href="https://blog.maple3142.net/2017/11/26/block-android-bahamut-ads/"/><id>https://blog.maple3142.net/2017/11/26/block-android-bahamut-ads/</id><published>2017-11-26T11:13:32.000Z</published><updated>2019-08-16T11:14:47.569Z</updated><summary type="html">
+    
+      &lt;p&gt;這篇教學是一個簡單的教學教你如何，阻擋巴哈姆特 App 廣告的方法&lt;br&gt;寫這篇文章時的測試版本為 5.6.3，不過到目前最新版為止都還有效&lt;/p&gt;
+    
+    </summary><category term="研究" scheme="https://blog.maple3142.net/categories/%E7%A0%94%E7%A9%B6/"/><category term="Bahamut" scheme="https://blog.maple3142.net/tags/Bahamut/"/><category term="ads" scheme="https://blog.maple3142.net/tags/ads/"/><category term="android" scheme="https://blog.maple3142.net/tags/android/"/></entry><entry><title>javascript 右鍵選單</title><link href="https://blog.maple3142.net/2017/11/22/javascript-contextmenu/"/><id>https://blog.maple3142.net/2017/11/22/javascript-contextmenu/</id><published>2017-11-22T15:12:27.000Z</published><updated>2019-08-16T11:14:47.593Z</updated><summary type="html">
+    
+      &lt;p&gt;我在有空的時候試著用純 javascript 實作了一個簡單的右鍵選單&lt;br&gt;雖然沒搞什麼複雜的 css，外觀也很醜，但基本上以功能來說是可以用的&lt;/p&gt;
+    
+    </summary><category term="javascript" scheme="https://blog.maple3142.net/categories/javascript/"/><category term="javascript" scheme="https://blog.maple3142.net/tags/javascript/"/></entry><entry><title>Hexo NexT 主題的閱讀次數統計</title><link href="https://blog.maple3142.net/2017/11/04/hexo-next-readcount/"/><id>https://blog.maple3142.net/2017/11/04/hexo-next-readcount/</id><published>2017-11-04T03:20:14.000Z</published><updated>2019-08-16T11:14:47.580Z</updated><summary type="html">
+    
+      &lt;p&gt;這是一個在 &lt;a href=&quot;https://github.com/iissnan/hexo-theme-next&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Next&lt;/a&gt; 主題上的小功能可以在文章及首頁顯示文章的閱讀次數使用了 &lt;a href=&quot;https://firebase.google.com/docs/firestore/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;firestore&lt;/a&gt; 作為資料庫&lt;br&gt;&lt;a href=&quot;https://github.com/iissnan/hexo-theme-next/pulls?utf8=%E2%9C%93&amp;q=is%3Apr%20firestore%20&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;之前發的 PR&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;需要 Next v5.1.4 以上的版本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;更新: 目前已不建議使用此插件&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary><category term="教學" scheme="https://blog.maple3142.net/categories/%E6%95%99%E5%AD%B8/"/><category term="hexo" scheme="https://blog.maple3142.net/tags/hexo/"/><category term="firestore" scheme="https://blog.maple3142.net/tags/firestore/"/></entry><entry><title>vue 插件: vue-runkit</title><link href="https://blog.maple3142.net/2017/10/29/vue-runkit/"/><id>https://blog.maple3142.net/2017/10/29/vue-runkit/</id><published>2017-10-29T14:50:41.000Z</published><updated>2019-08-16T11:14:47.624Z</updated><summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;vue-runkit&lt;/code&gt; 是一個 vue component，是 &lt;a href=&quot;https://runkit.com/docs/embed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;runkit&lt;/a&gt; 的 wrapper&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;runkit 是一個讓你在瀏覽器上執行一些 node.js 程式的網站&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/maple3142/vue-runkit&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/maple3142/vue-runkit&lt;/a&gt;&lt;/p&gt;
+    
+    </summary><category term="專案" scheme="https://blog.maple3142.net/categories/%E5%B0%88%E6%A1%88/"/><category term="vue" scheme="https://blog.maple3142.net/tags/vue/"/></entry></feed>

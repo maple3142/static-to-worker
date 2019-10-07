@@ -1,0 +1,7 @@
+# Rename this file to wrangler.toml and fill "account_id", and you are ready
+account_id = "" # You CF account id, can be found in your account page
+name = ""
+type = "javascript"
+route = ""
+workers_dev = true
+zone_id = ""
