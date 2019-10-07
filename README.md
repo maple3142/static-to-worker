@@ -1,5 +1,7 @@
 # Publish your static webiste directly on CloudFlare workers for **Free**???
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maple3142/static-to-worker.svg)](https://greenkeeper.io/)
+
 > PS: This project is just a POC, and it only support html,js,css,json,xml files. So binary files such as png,jpeg won't be published.
 
 ## Usage
